@@ -1,0 +1,26 @@
+[Unit]
+Description=ETTER's distributed currency daemon
+After=network.target
+
+[Service]
+User=etter
+Group=etter
+
+Type=forking
+PIDFile=/var/lib/etterd/etterd.pid
+
+ExecStart=/usr/bin/etterd -daemon -pid=/var/lib/etterd/etterd.pid \
+          -conf=/etc/etter/etter.conf -datadir=/var/lib/etterd
+
+ExecStop=-/usr/bin/etter-cli -conf=/etc/etter/etter.conf \
+         -datadir=/var/lib/etterd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

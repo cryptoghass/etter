@@ -1,0 +1,11 @@
+[Protocol]
+exec=etter-qt '%u'
+protocol=etter
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ETTER
+Comment=ETTER P2P Cryptocurrency
+Comment[fr]=ETTER, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ETTER, eşten eşe kriptografik sanal para birimi
+Exec=etter-qt %u
+Terminal=false
+Type=Application
+Icon=etter128
+MimeType=x-scheme-handler/etter;
+Categories=Office;Finance;

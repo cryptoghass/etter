@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/etter_bg.qm</file>
+        <file alias="de">locale/etter_de.qm</file>
+        <file alias="en">locale/etter_en.qm</file>
+        <file alias="es">locale/etter_es.qm</file>
+        <file alias="fi">locale/etter_fi.qm</file>
+        <file alias="fr">locale/etter_fr.qm</file>
+        <file alias="it">locale/etter_it.qm</file>
+        <file alias="ja">locale/etter_ja.qm</file>
+        <file alias="pl">locale/etter_pl.qm</file>
+        <file alias="pt">locale/etter_pt.qm</file>
+        <file alias="ru">locale/etter_ru.qm</file>
+        <file alias="sk">locale/etter_sk.qm</file>
+        <file alias="sv">locale/etter_sv.qm</file>
+        <file alias="vi">locale/etter_vi.qm</file>
+        <file alias="zh_CN">locale/etter_zh_CN.qm</file>
+        <file alias="zh_TW">locale/etter_zh_TW.qm</file>
+    </qresource>
+</RCC>

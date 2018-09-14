@@ -1,0 +1,26 @@
+# /etc/conf.d/etterd: config file for /etc/init.d/etterd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/etter/etter.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/etterd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/etterd.pid"
+
+# Where to write etterd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/etterd"
+
+# User and group to own etterd process
+#BITCOIND_USER="etter"
+#BITCOIND_GROUP="etter"
+
+# Path to etterd executable
+#BITCOIND_BIN="/usr/bin/etterd"
+
+# Nice value to run etterd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
